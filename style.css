@@ -1,0 +1,270 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+     font-family: 'Roboto Slab', serif;
+    background-color: beige;
+    font-size: 1em;
+    
+}
+
+/*------
+navbar style start
+---------------------*/
+
+.mobile-menubar,.sidebar-nav{ display: none;}
+.navbar{
+    background-color: #2D25A0;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+
+}
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+}
+
+.top-navbar .nav ul{
+
+    list-style-type: none;
+}
+.top-navbar .nav ul li{
+    float: left;
+    padding-top: 6px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.top-navbar .nav ul li a{
+    text-decoration: none; 
+    color: #fff;
+    display: inline-block;
+   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 8px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.top-navbar .nav ul li a:hover{
+
+    background-color: rgb(82, 79, 223);
+    
+}
+
+.top-navbar .login a{
+    background-color:#E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.top-navbar .login a:hover{
+
+    background-color: blueviolet;
+}
+
+.top-navbar .login span{
+
+    color:#fff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+   
+    
+}
+.top-navbar .login img{
+    position: relative;
+    top:3px;
+    width:17px;
+    height: 16px;
+   
+    
+}
+/* nav end */
+
+
+   /* top section */
+   .top-section{
+    display: flex;
+    width: 100%;
+    background-color: rgb(56, 56, 182);
+   align-items: center;
+   justify-content: center;
+    height: 400px;
+    margin-top: 10px;
+    
+}
+
+
+.section-photo img{
+    width: 45%;
+    margin-left: 370px;
+   
+    
+}
+
+.section-photo{
+    overflow: hidden;
+}
+
+.section-photo img{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    transition: 1s;
+}
+
+
+.banner-photo:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+
+
+
+.section-text{
+    margin-left: 150px;
+    color: white; 
+}
+.section-text h1{
+    font-size: 2.8rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.link-button{
+    text-decoration: none;
+    background-color:green;
+    color:red;
+    padding: 3px;
+  
+}
+.link-button:hover{
+    background-color: rgb(47, 172, 255);
+}
+
+
+
+
+
+/* player middle part */
+.players
+{
+    padding: 10px;
+
+    
+}
+
+.player-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 150px;
+
+}
+
+.player {
+    width: 300px;
+    margin: 10px;
+    box-shadow: 5px 7px 40px gray;
+    border: 3px solid rosybrown
+    
+}
+
+.player img {
+    width: 90%;
+
+}
+
+/* midlle part end */
+
+/* footer partner part */
+
+.container-partner{
+
+    
+    padding: 30px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #e4e8f0;
+    border-bottom: 2px solid #e4e8f0;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    box-shadow: 5px 7px 40px gray;
+  }
+
+  .container-partner .section-title{
+
+    margin-bottom: 50px;
+    text-transform:uppercase;
+    color:#0A0826;
+    
+  }
+
+
+.partnars{
+    width:1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+/*partnar part end*/
+
+
+
+/* footer */
+
+.logo img{
+    width: 30%;
+    justify-content: center;
+    margin-left: 345px;
+    margin-top: 20px;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+}
+.icon{
+    margin-top: 15px;
+    padding: 5px;
+}
+.icon-color{
+    padding: 5px;
+    margin: 5px;
+    
+    border-radius: 50%;
+    color: gold;
+    font-size: 12px;
+}
+
+.copyright{
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+/* footer end */
+
+
+
